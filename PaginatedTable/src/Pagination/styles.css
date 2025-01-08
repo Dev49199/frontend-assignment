@@ -1,0 +1,29 @@
+.paginationContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--text-size-l);
+}
+
+.paginationContainer ul,li{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.paginationContainer .pageList{
+    display: flex;
+    background-color: var(--primary-background);
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.pageList li{
+    display: inline-block;
+    width: 25px;
+}
+
+.paginationContainer .active{
+    background-color: var(--seconday-background);
+}
